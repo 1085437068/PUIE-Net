@@ -1,0 +1,9 @@
+1.下载数据和权重 --》 readme中
+
+2.项目新增了以下几个文件夹：（1）daase/new_UIEBD/test/image （2）weighs/puie.pth （3）results/UIEBD
+
+3.运行test
+虚拟环境pt120：新建虚拟环境pt112：python3.9 torch1.12.0 cuda11.3
+pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
+（1）将cuda设置为0
+--》运行成功

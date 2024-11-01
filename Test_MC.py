@@ -15,7 +15,7 @@ parser.add_argument('--testBatchSize', type=int, default=1, help='testing batch 
 parser.add_argument('--gpu_mode', type=bool, default=True)
 parser.add_argument('--threads', type=int, default=4, help='number of threads for data loader to use')
 parser.add_argument('--seed', type=int, default=123, help='random seed to use Default=123')
-parser.add_argument('--device', type=str, default='cuda:2')
+parser.add_argument('--device', type=str, default='cuda:0')
 parser.add_argument('--input_dir', type=str, default='dataset/new_UIEBD/test/image')
 parser.add_argument('--output', default='results/UIEBD', help='Location to save checkpoint models')
 parser.add_argument('--sample_out', type=str, default='sample')
